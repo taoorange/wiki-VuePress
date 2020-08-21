@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Search Plugin | VuePress</title>
+    <meta name="generator" content="VuePress 1.5.3">
+    <link rel="icon" href="/logo.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon-152x152.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3eaf7c">
+    <meta name="description" content="Vue-powered Static Site Generator">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    <link rel="preload" href="/assets/css/0.styles.a28f8763.css" as="style"><link rel="preload" href="/assets/js/app.6bc89f7a.js" as="script"><link rel="preload" href="/assets/js/3.7044c5a1.js" as="script"><link rel="preload" href="/assets/js/41.a5059f43.js" as="script"><link rel="prefetch" href="/assets/js/10.ee59ae00.js"><link rel="prefetch" href="/assets/js/11.c53aea7b.js"><link rel="prefetch" href="/assets/js/12.d1358ec3.js"><link rel="prefetch" href="/assets/js/13.d52cfa39.js"><link rel="prefetch" href="/assets/js/14.e88520a9.js"><link rel="prefetch" href="/assets/js/15.df580341.js"><link rel="prefetch" href="/assets/js/16.d4ba80c4.js"><link rel="prefetch" href="/assets/js/17.8a9a6972.js"><link rel="prefetch" href="/assets/js/18.06af8004.js"><link rel="prefetch" href="/assets/js/19.2691d6ad.js"><link rel="prefetch" href="/assets/js/20.7dbb8c70.js"><link rel="prefetch" href="/assets/js/21.2ba3e388.js"><link rel="prefetch" href="/assets/js/22.241857d8.js"><link rel="prefetch" href="/assets/js/23.cd0ae802.js"><link rel="prefetch" href="/assets/js/24.d0ccb074.js"><link rel="prefetch" href="/assets/js/25.417b0202.js"><link rel="prefetch" href="/assets/js/26.473ccf0c.js"><link rel="prefetch" href="/assets/js/27.53bb4ca8.js"><link rel="prefetch" href="/assets/js/28.e7bbc1f3.js"><link rel="prefetch" href="/assets/js/29.de28e64f.js"><link rel="prefetch" href="/assets/js/30.948878e7.js"><link rel="prefetch" href="/assets/js/31.b137437e.js"><link rel="prefetch" href="/assets/js/32.c4af2a57.js"><link rel="prefetch" href="/assets/js/33.fa91c57e.js"><link rel="prefetch" href="/assets/js/34.8606fb7b.js"><link rel="prefetch" href="/assets/js/35.4cf97151.js"><link rel="prefetch" href="/assets/js/36.06f58957.js"><link rel="prefetch" href="/assets/js/37.24218b57.js"><link rel="prefetch" href="/assets/js/38.14fd6bed.js"><link rel="prefetch" href="/assets/js/39.a5bd1381.js"><link rel="prefetch" href="/assets/js/4.dc4478b5.js"><link rel="prefetch" href="/assets/js/40.fbd10705.js"><link rel="prefetch" href="/assets/js/42.ac750522.js"><link rel="prefetch" href="/assets/js/43.eec87cef.js"><link rel="prefetch" href="/assets/js/44.e6334616.js"><link rel="prefetch" href="/assets/js/45.1030f702.js"><link rel="prefetch" href="/assets/js/46.7ddf8151.js"><link rel="prefetch" href="/assets/js/47.dcbbe635.js"><link rel="prefetch" href="/assets/js/48.1a9c4123.js"><link rel="prefetch" href="/assets/js/49.0812c12d.js"><link rel="prefetch" href="/assets/js/5.eba3aa42.js"><link rel="prefetch" href="/assets/js/50.9ec1c6d7.js"><link rel="prefetch" href="/assets/js/51.e4c9e4cf.js"><link rel="prefetch" href="/assets/js/52.a6003d0e.js"><link rel="prefetch" href="/assets/js/53.8fb05b48.js"><link rel="prefetch" href="/assets/js/54.95ead23d.js"><link rel="prefetch" href="/assets/js/55.a8c642e5.js"><link rel="prefetch" href="/assets/js/56.7e45f1ef.js"><link rel="prefetch" href="/assets/js/57.a6dbfbae.js"><link rel="prefetch" href="/assets/js/58.809f61b6.js"><link rel="prefetch" href="/assets/js/59.ed2be7a8.js"><link rel="prefetch" href="/assets/js/6.3600a066.js"><link rel="prefetch" href="/assets/js/60.3a4288e6.js"><link rel="prefetch" href="/assets/js/61.5632b67c.js"><link rel="prefetch" href="/assets/js/62.c3fc8407.js"><link rel="prefetch" href="/assets/js/63.575cb1f3.js"><link rel="prefetch" href="/assets/js/64.06201715.js"><link rel="prefetch" href="/assets/js/65.00211289.js"><link rel="prefetch" href="/assets/js/66.411d48e0.js"><link rel="prefetch" href="/assets/js/67.084e8496.js"><link rel="prefetch" href="/assets/js/68.9b7ab78d.js"><link rel="prefetch" href="/assets/js/69.1bacf7b5.js"><link rel="prefetch" href="/assets/js/7.d9b32a56.js"><link rel="prefetch" href="/assets/js/70.47044fe0.js"><link rel="prefetch" href="/assets/js/71.f46efb44.js"><link rel="prefetch" href="/assets/js/72.e64b31e9.js"><link rel="prefetch" href="/assets/js/73.24038069.js"><link rel="prefetch" href="/assets/js/74.1ba7ac4e.js"><link rel="prefetch" href="/assets/js/75.93655039.js"><link rel="prefetch" href="/assets/js/76.ab705556.js"><link rel="prefetch" href="/assets/js/77.91821dbc.js"><link rel="prefetch" href="/assets/js/78.10343cd0.js"><link rel="prefetch" href="/assets/js/79.785887c1.js"><link rel="prefetch" href="/assets/js/8.cedf24af.js"><link rel="prefetch" href="/assets/js/80.05e76c84.js"><link rel="prefetch" href="/assets/js/81.d933579c.js"><link rel="prefetch" href="/assets/js/82.dfc7b696.js"><link rel="prefetch" href="/assets/js/83.7b26ec94.js"><link rel="prefetch" href="/assets/js/84.aa81af9f.js"><link rel="prefetch" href="/assets/js/85.fd5673a9.js"><link rel="prefetch" href="/assets/js/86.109e4b39.js"><link rel="prefetch" href="/assets/js/87.63b7721f.js"><link rel="prefetch" href="/assets/js/88.2ee751da.js"><link rel="prefetch" href="/assets/js/89.37af1d46.js"><link rel="prefetch" href="/assets/js/9.4c9fcfc4.js"><link rel="prefetch" href="/assets/js/90.26429f7b.js"><link rel="prefetch" href="/assets/js/91.676f6495.js"><link rel="prefetch" href="/assets/js/92.f199527c.js"><link rel="prefetch" href="/assets/js/93.1ecbba7e.js"><link rel="prefetch" href="/assets/js/94.d71c420e.js"><link rel="prefetch" href="/assets/js/95.cddf4c41.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.dfe6894b.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.a28f8763.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">VuePress</span></a> <div class="links"><form id="search-form" role="search" class="algolia-search-wrapper search-box"><input id="algolia-search-input" class="search-query"></form> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="/config/" class="nav-link">
+  Config Reference
+</a></div><div class="nav-item"><a href="/plugin/" class="nav-link router-link-active">
+  Plugin
+</a></div><div class="nav-item"><a href="/theme/" class="nav-link">
+  Theme
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Learn More" class="dropdown-title"><span class="title">Learn More</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          API
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/api/cli.html" class="nav-link">
+  CLI
+</a></li><li class="dropdown-subitem"><a href="/api/node.html" class="nav-link">
+  Node
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Contributing Guide
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/miscellaneous/local-development.html" class="nav-link">
+  Local Development
+</a></li><li class="dropdown-subitem"><a href="/miscellaneous/design-concepts.html" class="nav-link">
+  Design Concepts
+</a></li><li class="dropdown-subitem"><a href="/faq/" class="nav-link">
+  FAQ
+</a></li><li class="dropdown-subitem"><a href="/miscellaneous/glossary.html" class="nav-link">
+  Glossary
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Miscellaneous
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/miscellaneous/migration-guide.html" class="nav-link">
+  Migrate from 0.x
+</a></li><li class="dropdown-subitem"><a href="https://github.com/vuejs/vuepress/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Changelog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><a href="https://v0.vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  0.x
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/plugin/official/plugin-search.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/zh/plugin/official/plugin-search.html" class="nav-link">
+  简体中文
+</a></li></ul></div></div> <a href="https://github.com/vuejs/vuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="/config/" class="nav-link">
+  Config Reference
+</a></div><div class="nav-item"><a href="/plugin/" class="nav-link router-link-active">
+  Plugin
+</a></div><div class="nav-item"><a href="/theme/" class="nav-link">
+  Theme
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Learn More" class="dropdown-title"><span class="title">Learn More</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          API
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/api/cli.html" class="nav-link">
+  CLI
+</a></li><li class="dropdown-subitem"><a href="/api/node.html" class="nav-link">
+  Node
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Contributing Guide
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/miscellaneous/local-development.html" class="nav-link">
+  Local Development
+</a></li><li class="dropdown-subitem"><a href="/miscellaneous/design-concepts.html" class="nav-link">
+  Design Concepts
+</a></li><li class="dropdown-subitem"><a href="/faq/" class="nav-link">
+  FAQ
+</a></li><li class="dropdown-subitem"><a href="/miscellaneous/glossary.html" class="nav-link">
+  Glossary
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Miscellaneous
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/miscellaneous/migration-guide.html" class="nav-link">
+  Migrate from 0.x
+</a></li><li class="dropdown-subitem"><a href="https://github.com/vuejs/vuepress/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Changelog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><a href="https://v0.vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  0.x
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/plugin/official/plugin-search.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/zh/plugin/official/plugin-search.html" class="nav-link">
+  简体中文
+</a></li></ul></div></div> <a href="https://github.com/vuejs/vuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav> <div class="carbon-ads"></div> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>search</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/plugin/official/plugin-search.html#install" class="sidebar-link">Install</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/plugin/official/plugin-search.html#usage" class="sidebar-link">Usage</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/plugin/official/plugin-search.html#options" class="sidebar-link">Options</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/plugin/official/plugin-search.html#searchmaxsuggestions" class="sidebar-link">searchMaxSuggestions</a></li><li class="sidebar-sub-header"><a href="/plugin/official/plugin-search.html#test" class="sidebar-link">test</a></li><li class="sidebar-sub-header"><a href="/plugin/official/plugin-search.html#searchhotkeys" class="sidebar-link">searchHotkeys</a></li></ul></li><li><a href="/plugin/official/plugin-search.html#tips" class="sidebar-link">Tips</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/plugin/official/plugin-search.html#tweak-the-default-colors" class="sidebar-link">Tweak the default colors.</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="vuepress-plugin-search"><a href="#vuepress-plugin-search" class="header-anchor">#</a> <a href="https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-search" target="_blank" rel="noopener noreferrer">@vuepress/plugin-search<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></h1> <blockquote><p><a href="/miscellaneous/glossary.html#headers">Headers</a>-based search plugin</p></blockquote> <h2 id="install"><a href="#install" class="header-anchor">#</a> Install</h2> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> <span class="token function">add</span> -D @vuepress/plugin-search
+<span class="token comment"># OR npm install -D @vuepress/plugin-search</span>
+</code></pre></div><div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>Note that this plugin has been included in <strong>default theme</strong>, the search box you see now is powered by the plugin.</p></div> <h2 id="usage"><a href="#usage" class="header-anchor">#</a> Usage</h2> <ol><li>Enable this plugin:</li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// .vuepress/config.js or themePath/index.js</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  plugins<span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">[</span><span class="token string">'@vuepress/search'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+      searchMaxSuggestions<span class="token operator">:</span> <span class="token number">10</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="2"><li>This plugin will automatically inject a webpack alias <code>@SearchBox</code> pointing to the search component so that you can use it directly in your <a href="/miscellaneous/glossary.html#layout">layout</a> component:</li></ol> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>foo-layout<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>SearchBox</span><span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span><span class="token punctuation">&gt;</span></span>
+      ...
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> SearchBox <span class="token keyword">from</span> <span class="token string">'@SearchBox'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  components<span class="token operator">:</span> <span class="token punctuation">{</span> SearchBox <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="options"><a href="#options" class="header-anchor">#</a> Options</h2> <h3 id="searchmaxsuggestions"><a href="#searchmaxsuggestions" class="header-anchor">#</a> searchMaxSuggestions</h3> <ul><li>Type: <code>number</code></li> <li>Default: 5</li></ul> <p>Set the maximum number of results for search.</p> <h3 id="test"><a href="#test" class="header-anchor">#</a> test</h3> <ul><li>Type: <code>RegExp</code> | <code>Array&lt;RegExp&gt;</code></li> <li>Default: <code>null</code></li></ul> <p>Set up searchable paths with regular expressions. If no test expression is provided it will search on all paths. Considering you have this structure:</p> <div class="language-bash extra-class"><pre class="language-bash"><code>docs/
+├── .vuepress/
+│    └── <span class="token punctuation">..</span>.
+│
+├── master/
+│    └── <span class="token punctuation">..</span>.
+│
+├── <span class="token number">1.0</span>/
+│    └── <span class="token punctuation">..</span>.
+│
+└── <span class="token number">2.0</span>/
+     └── <span class="token punctuation">..</span>.
+</code></pre></div><p>You can set up searchable paths with <code>test</code> as:</p> <ul><li>RegExp: <code>'/1\.0/'</code></li> <li>Array of RegExp: <code>['/1\.0/', '/2\.0/']</code></li></ul> <p>Otherwise,  the default search will return duplicates, once you can have similar content between folders <code>/master/</code>, <code>/1.0/</code> and <code>/2.0/</code>.</p> <h3 id="searchhotkeys"><a href="#searchhotkeys" class="header-anchor">#</a> searchHotkeys</h3> <ul><li>Type: <code>Array&lt;string&gt;</code></li> <li>Default: <code>['s', '/']</code></li></ul> <p>Configure the hotkeys which when pressed will focus the search box. Set to an empty array to disable this feature.</p> <h2 id="tips"><a href="#tips" class="header-anchor">#</a> Tips</h2> <h3 id="tweak-the-default-colors"><a href="#tweak-the-default-colors" class="header-anchor">#</a> Tweak the default colors.</h3> <p>Since the Search component leverages the built-in palette, you can tweak the default colors via <code>styles/palette.styl</code>:</p> <div class="language-stylus extra-class"><pre class="language-stylus"><code><span class="token comment">// colors of the searchbox you see now:</span>
+<span class="token variable-declaration"><span class="token variable">$accentColor</span> <span class="token operator">=</span> <span class="token hexcode">#3eaf7c</span></span>
+<span class="token variable-declaration"><span class="token variable">$textColor</span> <span class="token operator">=</span> <span class="token hexcode">#2c3e50</span></span>
+<span class="token variable-declaration"><span class="token variable">$borderColor</span> <span class="token operator">=</span> <span class="token hexcode">#eaecef</span></span>
+<span class="token variable-declaration"><span class="token variable">$codeBgColor</span> <span class="token operator">=</span> <span class="token hexcode">#282c34</span></span>
+<span class="token variable-declaration"><span class="token variable">$arrowBgColor</span> <span class="token operator">=</span> <span class="token hexcode">#ccc</span></span>
+</code></pre></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/vuejs/vuepress/edit/master/packages/docs/docs/plugin/official/plugin-search.md" target="_blank" rel="noopener noreferrer">Edit this page on GitHub</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">8/20/2020, 10:46:22 PM</span></div></footer> <!----> <div class="bsa-cpc-wrapper"><div class="bsa-cpc"></div></div></main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.6bc89f7a.js" defer></script><script src="/assets/js/3.7044c5a1.js" defer></script><script src="/assets/js/41.a5059f43.js" defer></script>
+  </body>
+</html>
