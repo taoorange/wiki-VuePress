@@ -1,7 +1,4 @@
-const { fs, path } = require('@vuepress/shared-utils')
-
 module.exports = ctx => ({
-  dest: '../../vuepress',
   locales: {
     '/': {
       lang: 'en-US',
@@ -44,12 +41,7 @@ module.exports = ctx => ({
         editLinkText: 'Edit this page on GitHub',
         lastUpdated: 'Last Updated',
         nav: require('./nav/en'),
-        sidebar: {
-          '/api/': getApiSidebar(),
-          '/guide/': getGuideSidebar('Guide', 'Advanced'),
-          '/plugin/': getPluginSidebar('Plugin', 'Introduction', 'Official Plugins'),
-          '/theme/': getThemeSidebar('Theme', 'Introduction')
-        }
+        sidebar: 'auto'
       },
       '/zh/': {
         label: '简体中文',
@@ -58,122 +50,8 @@ module.exports = ctx => ({
         editLinkText: '在 GitHub 上编辑此页',
         lastUpdated: '上次更新',
         nav: require('./nav/zh'),
-        sidebar: {
-          '/zh/api/': getApiSidebar(),
-          '/zh/guide/': getGuideSidebar('指南', '深入'),
-          '/zh/plugin/': getPluginSidebar('插件', '介绍', '官方插件'),
-          '/zh/theme/': getThemeSidebar('主题', '介绍')
-        }
+        sidebar: 'auto'
       }
     }
   },
-  plugins: [
-    ['@vuepress/back-to-top', true],
-    ['@vuepress/pwa', {
-      serviceWorker: true,
-      updatePopup: true
-    }],
-    ['@vuepress/medium-zoom', true],
-    ['@vuepress/google-analytics', {
-      ga: 'UA-128189152-1'
-    }],
-    ['container', {
-      type: 'vue',
-      before: '<pre class="vue-container"><code>',
-      after: '</code></pre>'
-    }],
-    ['container', {
-      type: 'upgrade',
-      before: info => `<UpgradePath title="${info}">`,
-      after: '</UpgradePath>'
-    }],
-    ['flowchart']
-  ],
-  extraWatchFiles: [
-    '.vuepress/nav/en.js',
-    '.vuepress/nav/zh.js'
-  ]
 })
-
-function getApiSidebar () {
-  return [
-    'cli',
-    'node'
-  ]
-}
-
-function getGuideSidebar (groupA, groupB) {
-  return [
-    {
-      title: groupA,
-      collapsable: false,
-      children: [
-        '',
-        'getting-started',
-        'directory-structure',
-        'basic-config',
-        'assets',
-        'markdown',
-        'using-vue',
-        'i18n',
-        'deploy'
-      ]
-    },
-    {
-      title: groupB,
-      collapsable: false,
-      children: [
-        'frontmatter',
-        'permalinks',
-        'markdown-slot',
-        'global-computed'
-      ]
-    }
-  ]
-}
-
-const officalPlugins = fs
-  .readdirSync(path.resolve(__dirname, '../plugin/official'))
-  .map(filename => 'official/' + filename.slice(0, -3))
-  .sort()
-
-function getPluginSidebar (pluginTitle, pluginIntro, officialPluginTitle) {
-  return [
-    {
-      title: pluginTitle,
-      collapsable: false,
-      children: [
-        ['', pluginIntro],
-        'using-a-plugin',
-        'writing-a-plugin',
-        'life-cycle',
-        'option-api',
-        'context-api'
-      ]
-    },
-    {
-      title: officialPluginTitle,
-      collapsable: false,
-      children: officalPlugins
-    }
-  ]
-}
-
-function getThemeSidebar (groupA, introductionA) {
-  return [
-    {
-      title: groupA,
-      collapsable: false,
-      sidebarDepth: 2,
-      children: [
-        ['', introductionA],
-        'using-a-theme',
-        'writing-a-theme',
-        'option-api',
-        'default-theme-config',
-        'blog-theme',
-        'inheritance'
-      ]
-    }
-  ]
-}
