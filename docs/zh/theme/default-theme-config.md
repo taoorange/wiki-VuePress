@@ -463,7 +463,7 @@ module.exports = {
     // 假如文档放在一个特定的分支下：
     docsBranch: 'master',
     // 默认是 false, 设置为 true 来启用
-    editLinks: true,
+    editLinks: false,
     // 默认为 "Edit this page"
     editLinkText: '帮助我们改善此页面！'
   }

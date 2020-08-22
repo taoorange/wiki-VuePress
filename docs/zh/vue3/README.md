@@ -1,6 +1,7 @@
 # Vue3
 
-最近学习大圣老师的[Vue3](https://www.yuque.com/woniuppp/vue3)，获益匪浅，决定做一个做一下笔记。之前在语雀写了几篇。偶然得知之前的同事在玩VuePress，于是在[巴斯大哥](https://wiki.rokevin.cn/)的帮助下，自己也弄了一个人网站。好了废话不多说。上干货吧！
+
+最近学习大圣老师的[Vue3](https://www.yuque.com/woniuppp/vue3)，获益匪浅，决定做一下笔记。之前在语雀写了几篇。偶然得知之前的同事在玩VuePress，于是在[巴斯大哥](https://wiki.rokevin.cn/)的帮助下，自己也弄了一个人网站。好了废话不多说。上干货吧！
 
 ## 目录
 

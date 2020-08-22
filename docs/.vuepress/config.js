@@ -18,9 +18,12 @@ module.exports = ctx => ({
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
   theme: '@vuepress/vue',
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
-    repo: 'vuejs/vuepress',
-    editLinks: true,
+    // repo: 'vuejs/vuepress',
+    editLinks: false,
     docsDir: 'packages/docs/docs',
     // #697 Provided by the official algolia team.
     algolia: ctx.isProd ? ({
@@ -28,12 +31,15 @@ module.exports = ctx => ({
       indexName: 'vuepress'
     }) : null,
     smoothScroll: true,
+    nextLinks: true,
+    prevLinks: true,
+    displayAllHeaders: true,
     locales: {
       '/': {
         label: '简体中文',
         selectText: '选择语言',
         ariaLabel: '选择语言',
-        editLinkText: '',
+        editLinkText: '在 GitHub 上编辑此页',
         lastUpdated: '上次更新',
         nav: require('./nav/zh'),
         sidebar: 'auto'
