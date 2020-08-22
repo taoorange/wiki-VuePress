@@ -19,8 +19,8 @@
   "license": "MIT",
   "author": "Evan You",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "devDependencies": {
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^1.0.7",
