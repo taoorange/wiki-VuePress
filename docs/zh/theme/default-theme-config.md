@@ -11,7 +11,7 @@
 ``` yaml
 ---
 home: true
-heroImage: /hero.png
+heroImage: /me.JPG
 heroText: Hero 标题
 tagline: Hero 副标题
 actionText: 快速上手 →

@@ -13,7 +13,7 @@ The default theme provides a homepage layout (used on [the homepage of this site
 ``` yaml
 ---
 home: true
-heroImage: /hero.png
+heroImage: /me.JPG
 heroText: Hero Title
 tagline: Hero subtitle
 actionText: Get Started →

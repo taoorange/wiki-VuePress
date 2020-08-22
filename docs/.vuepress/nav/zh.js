@@ -1,19 +1,19 @@
 module.exports = [
   {
-    text: '指南',
-    link: '/zh/guide/'
+    text: 'Vue3',
+    link: '/zh/vue3/'
   },
   {
-    text: '配置',
-    link: '/zh/config/'
+    text: 'ECMAScript6',
+    link: '/config/'
   },
   {
-    text: '插件',
-    link: '/zh/plugin/'
+    text: '数据和算法',
+    link: '/plugin/'
   },
   {
     text: '主题',
-    link: '/zh/theme/'
+    link: '/theme/'
   },
   {
     text: '了解更多',
@@ -24,11 +24,11 @@ module.exports = [
         items: [
           {
             text: 'CLI',
-            link: '/zh/api/cli.html'
+            link: '/api/cli.html'
           },
           {
             text: 'Node',
-            link: '/zh/api/node.html'
+            link: '/api/node.html'
           }
         ]
       },
@@ -37,19 +37,19 @@ module.exports = [
         items: [
           {
             text: '本地开发',
-            link: '/zh/miscellaneous/local-development.html'
+            link: '/miscellaneous/local-development.html'
           },
           {
             text: '设计理念',
-            link: '/zh/miscellaneous/design-concepts.html'
+            link: '/miscellaneous/design-concepts.html'
           },
           {
             text: 'FAQ',
-            link: '/zh/faq/'
+            link: '/faq/'
           },
           {
             text: '术语',
-            link: '/zh/miscellaneous/glossary.html'
+            link: '/miscellaneous/glossary.html'
           }
         ]
       },
@@ -58,7 +58,7 @@ module.exports = [
         items: [
           {
             text: '从 0.x 迁移',
-            link: '/zh/miscellaneous/migration-guide.html'
+            link: '/miscellaneous/migration-guide.html'
           },
           {
             text: 'Changelog',

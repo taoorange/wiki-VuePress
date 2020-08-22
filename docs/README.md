@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /me.JPG
 actionText: Get Started →
-footer: MIT Licensed | Copyright © 2018-present Taotao 13
+footer: 原谅我这一生放荡不羁爱自由
 ---
 

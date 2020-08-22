@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /me.JPG
 actionText: 快速上手 →
 actionLink: /zh/guide/
 features:
