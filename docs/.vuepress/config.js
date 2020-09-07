@@ -2,8 +2,8 @@ module.exports = ctx => ({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: '陶涛',
-      description: '陶涛的个人网站'
+      title: '哪里去',
+      description: '我本可以忍受黑暗，假如我不曾见过太阳'
     }
   },
   head: [
@@ -22,10 +22,8 @@ module.exports = ctx => ({
     lineNumbers: true
   },
   themeConfig: {
-    // repo: 'vuejs/vuepress',
     editLinks: false,
     docsDir: 'packages/docs/docs',
-    // #697 Provided by the official algolia team.
     algolia: ctx.isProd ? ({
       apiKey: '3a539aab83105f01761a137c61004d85',
       indexName: 'vuepress'

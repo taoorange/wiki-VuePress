@@ -5,27 +5,41 @@ module.exports = [
   },
   {
     text: 'ECMAScript6',
-    link: '/config/'
+    link: '/zh/es6/'
   },
   {
     text: '数据和算法',
-    link: '/plugin/'
+    link: '/zh/data-algorithm/'
   },
   {
     text: '主题',
-    link: '/theme/'
+    link: '/zh/plugin/'
   },
   {
     text: '了解更多',
     ariaLabel: '了解更多',
     items: [
       {
-        text: 'API',
+        text: 'javascript',
         items: [
           {
-            text: 'CLI',
+            text: 'js语法精进',
             link: '/api/cli.html'
-          },
+          }
+        ]
+      },
+      {
+        text: 'css',
+        items: [
+          {
+            text: 'css精进',
+            link: '/miscellaneous/local-development.html'
+          }
+        ]
+      },
+      {
+        text: 'Node',
+        items: [
           {
             text: 'Node',
             link: '/api/node.html'
@@ -33,36 +47,11 @@ module.exports = [
         ]
       },
       {
-        text: '开发指南',
-        items: [
-          {
-            text: '本地开发',
-            link: '/miscellaneous/local-development.html'
-          },
-          {
-            text: '设计理念',
-            link: '/miscellaneous/design-concepts.html'
-          },
-          {
-            text: 'FAQ',
-            link: '/faq/'
-          },
-          {
-            text: '术语',
-            link: '/miscellaneous/glossary.html'
-          }
-        ]
-      },
-      {
         text: '其他',
         items: [
           {
-            text: '从 0.x 迁移',
+            text: '其他',
             link: '/miscellaneous/migration-guide.html'
-          },
-          {
-            text: 'Changelog',
-            link: 'https://github.com/vuejs/vuepress/blob/master/CHANGELOG.md'
           }
         ]
       }
