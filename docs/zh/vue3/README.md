@@ -8,6 +8,7 @@
 **目前vue3的文档还在整理中**
 
 * [vue3基础用法](./basic-api.md)
+* [vue2组件通信的8种方法](./componen-communication.md)
 * [compositionAPI](./composition-api.md)
 * [vite](./vite.md)
 
