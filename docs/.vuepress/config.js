@@ -2,8 +2,8 @@ module.exports = ctx => ({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: '哪里去',
-      description: '我本可以忍受黑暗，假如我不曾见过太阳'
+      title: '浪淘沙令',
+      description: '最怕问初衷，大梦成空，眉间鬓上老英雄。剑甲鞮鍪封厚，说甚擒龙。壮志付西风，逝去无踪，少年早做一闲翁。诗酒琴棋终日里，岁月匆匆。'
     }
   },
   head: [
